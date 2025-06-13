@@ -7,3 +7,8 @@ Emergency Medical Services (EMS) are critical for saving lives, yet urban EMS sy
 # System Architecture
 
 ![architecture diagram](https://github.com/user-attachments/assets/04faf995-8e8f-4c22-9f90-f8fa67c230a6)
+
+# Hospital Routing
+
+![Routing result figure](https://github.com/user-attachments/assets/e1fa9d7c-ec84-4721-a6a6-1b1c610ffb81)
+
