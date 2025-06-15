@@ -11,4 +11,4 @@ Emergency Medical Services (EMS) are critical for saving lives, yet urban EMS sy
 # Hospital Routing
 
 ![Routing result figure](https://github.com/user-attachments/assets/e1fa9d7c-ec84-4721-a6a6-1b1c610ffb81)
-
+Top 3 Medical Emergencies hospitals with INTERNAL MEDICINE expertise for zip code: 10002.
