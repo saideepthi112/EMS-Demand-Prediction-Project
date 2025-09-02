@@ -162,9 +162,71 @@ def main():
 
         batch_df = pd.concat(batch_frames, ignore_index=True)
         batch_idx = start // batch_size + 1
-        out_path = output_dir / f"formatted_batch_{batch_idx}.csv"
+        out_path = output_dir / f"all_formatted_batches_dedup.csv"
         batch_df.to_csv(out_path, index=False)
         print(f"Saved {out_path}  rows={len(batch_df)}, cols={len(batch_df.columns)}")
+
+def fix_missing_hours(df, count_col="Call_Count"):
+    """
+    Ensure each ZIP_CODE + Date has exactly 24 rows (0-23 hours).
+    Missing rows are filled with forward/backward filled features and incident count = 0.
+    """
+    fixed_dfs = []
+
+    # Ensure Date column is datetime
+    df['Date'] = pd.to_datetime(df['Date'])
+
+    # Loop over each group (ZIP_CODE, Date)
+    for (zip_code, date), group in df.groupby(['ZIP_CODE', 'Date']):
+        group = group.sort_values('Hour')
+
+        # Create full set of hours
+        full_hours = pd.DataFrame({'Hour': range(24)})
+        merged = full_hours.merge(group, on='Hour', how='left')
+
+        # Add ZIP_CODE and Date
+        merged['ZIP_CODE'] = zip_code
+        merged['Date'] = date
+
+        # Forward fill/backward fill for non-count columns
+        for col in df.columns:
+            if col not in ['Hour', count_col]:
+                merged[col] = merged[col].ffill().bfill()
+
+        # Incident count = 0 where missing
+        merged[count_col] = merged[count_col].fillna(0)
+
+        fixed_dfs.append(merged)
+
+    # Combine everything
+    fixed_df = pd.concat(fixed_dfs, ignore_index=True)
+    fixed_df = fixed_df.sort_values(['ZIP_CODE', 'Date', 'Hour']).reset_index(drop=True)
+
+    return fixed_df
+
+
+if __name__ == "__main__":
+    # Load your dataset
+    df = pd.read_csv("all_formatted_batches_dedup.csv")
+
+    # Identify the total calls column (last column in your description)
+    # For safety, create a single "Call_Count" column if not already present
+    if "Call_Count" not in df.columns:
+        # Assuming incident count = sum of individual type counts
+        df["Call_Count"] = (
+            df["Medical Emergencies_count"] +
+            df["Environmental and Poisoning Emergencies_count"] +
+            df["Other_count"] +
+            df["Trauma-Related Incidents_count"]
+            # add other count columns if present
+        )
+
+    # Fix dataset
+    fixed_df = fix_missing_hours(df, count_col="Call_Count")
+
+    # Save cleaned dataset
+    fixed_df.to_csv("preprocessed_data.csv", index=False)
+
 
 if __name__ == "__main__":
     main()
