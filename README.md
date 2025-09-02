@@ -1,5 +1,13 @@
-# EMS-Demand-Prediction-Project
+# ST-EMS: A Spatio-Temporal Framework for Forecasting Emergency Medical Service Demand and Adaptive Hospital Routing
 
+## Authors
+- Sai Deepthi Yeddula
+- Sarath S. Shanker
+- Abhijeet Bhattacharya
+- Chen Jiang
+- Julian Rrushi
+- Wei-Shinn Ku
+  
 # Abstract
 
 Emergency Medical Services (EMS) are critical for saving lives, yet urban EMS systems face increasing challenges due to rising call volumes, congested cities, and strained hospital capacities In highly populated cities, where millions of emergencies are reported each year, delays in ambulance response and inefficient hospital routing can result in increased mortality and adverse patient outcomes. Traditional forecasting systems lack the spatial resolution and capacity to integrate essential factors like regional demand, hospital facility demand, and weather dynamics. To overcome these limitations, this paper presents a forecasting system that predicts EMS demand at ZIP-code granularity using spatio-temporal deep learning methods and a hospital routing algorithm. Utilizing a decade-long real-world EMS incident dataset, we demonstrate how the incident data patterns impact forecasting, hospital routing, and how these insights can be integrated into intelligent transportation and public health systems.
