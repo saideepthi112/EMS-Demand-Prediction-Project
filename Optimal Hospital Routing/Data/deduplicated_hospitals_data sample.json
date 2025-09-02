@@ -1,0 +1,311 @@
+[
+  {
+    "name": "BETANCES HEALTH CENTER",
+    "zip": 10002,
+    "facilities": [
+      "Medical Emergencies"
+    ],
+    "expertise": [
+      "HOSPITALIST",
+      "PEDIATRIC MEDICINE",
+      "CLINICAL SOCIAL WORKER",
+      "NURSE PRACTITIONER",
+      "PODIATRY",
+      "INTERNAL MEDICINE",
+      "FAMILY PRACTICE",
+      "REGISTERED DIETITIAN OR NUTRITION PROFESSIONAL",
+      "CERTIFIED NURSE MIDWIFE (CNM)"
+    ],
+    "quality": 3.7,
+    "beds": 0,
+    "doctors": 20
+  },
+  {
+    "name": "CITY MEDICAL OF UPPER EAST SIDE PLLC",
+    "zip": 10002,
+    "facilities": [
+      "Environmental and Poisoning Emergencies"
+    ],
+    "expertise": [
+      "FAMILY PRACTICE",
+      "COLORECTAL SURGERY (PROCTOLOGY)",
+      "EMERGENCY MEDICINE",
+      "PHYSICIAN ASSISTANT"
+    ],
+    "quality": 4.3,
+    "beds": 0,
+    "doctors": 10
+  },
+  {
+    "name": "NEW YORK CITY HEALTH AND HOSPITALS CORPORATION",
+    "zip": 10002,
+    "facilities": [
+      "Environmental and Poisoning Emergencies"
+    ],
+    "expertise": [
+      "PULMONARY DISEASE",
+      "PSYCHIATRY",
+      "UROLOGY",
+      "GASTROENTEROLOGY",
+      "DIAGNOSTIC RADIOLOGY",
+      "RHEUMATOLOGY",
+      "PODIATRY",
+      "INTERNAL MEDICINE",
+      "FAMILY PRACTICE",
+      "OBSTETRICS/GYNECOLOGY",
+      "OPHTHALMOLOGY",
+      "OPTOMETRY",
+      "NURSE PRACTITIONER",
+      "INFECTIOUS DISEASE",
+      "CERTIFIED NURSE MIDWIFE (CNM)",
+      "GERIATRIC MEDICINE"
+    ],
+    "quality": 3.7,
+    "beds": 295,
+    "doctors": 500
+  },
+  {
+    "name": "PSYCHIATRIC NURSE PRACTITIONER P.C",
+    "zip": 10002,
+    "facilities": [
+      "Environmental and Poisoning Emergencies"
+    ],
+    "expertise": [
+      "NURSE PRACTITIONER"
+    ],
+    "quality": 0,
+    "beds": 0,
+    "doctors": 1
+  },
+  {
+    "name": "WOMENS HEALTH AND WELLNESS MEDICAL ASSOCIATES PLLC",
+    "zip": 10002,
+    "facilities": [
+      "Environmental and Poisoning Emergencies"
+    ],
+    "expertise": [
+      "OBSTETRICS/GYNECOLOGY"
+    ],
+    "quality": 1,
+    "beds": 0,
+    "doctors": 2
+  },
+  {
+    "name": "ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI",
+    "zip": 10002,
+    "facilities": [
+      "Medical Emergencies"
+    ],
+    "expertise": [
+      "GASTROENTEROLOGY",
+      "ENDOCRINOLOGY",
+      "INTERNAL MEDICINE",
+      "OBSTETRICS/GYNECOLOGY",
+      "FAMILY PRACTICE",
+      "OPHTHALMOLOGY",
+      "NEUROLOGY",
+      "OTOLARYNGOLOGY",
+      "DERMATOLOGY"
+    ],
+    "quality": 4.2,
+    "beds": 3760,
+    "doctors": 48000
+  },
+  {
+    "name": "WEILL MEDICAL COLLEGE OF CORNELL",
+    "zip": 10002,
+    "facilities": [
+      "Trauma-Related Incidents"
+    ],
+    "expertise": [
+      "INTERVENTIONAL CARDIOLOGY"
+    ],
+    "quality": 4.4,
+    "beds": 862,
+    "doctors": 2250
+  },
+  {
+    "name": "HAMILTON MADISON HOUSE INC",
+    "zip": 10002,
+    "facilities": [
+      "Medical Emergencies"
+    ],
+    "expertise": [
+      "CLINICAL PSYCHOLOGIST",
+      "CLINICAL SOCIAL WORKER",
+      "PSYCHIATRY",
+      "NURSE PRACTITIONER"
+    ],
+    "quality": 4,
+    "beds": 43,
+    "doctors": 6
+  },
+  {
+    "name": "COMMUNITY HEALTHCARE NETWORK INC",
+    "zip": 10002,
+    "facilities": [
+      "Medical Emergencies"
+    ],
+    "expertise": [
+      "CLINICAL SOCIAL WORKER",
+      "NURSE PRACTITIONER",
+      "PODIATRY",
+      "FAMILY PRACTICE",
+      "REGISTERED DIETITIAN OR NUTRITION PROFESSIONAL",
+      "CERTIFIED NURSE MIDWIFE (CNM)"
+    ],
+    "quality": 2.8,
+    "beds": 0,
+    "doctors": 750
+  },
+  {
+    "name": "TD PODIATRY PC",
+    "zip": 10002,
+    "facilities": [
+      "Environmental and Poisoning Emergencies"
+    ],
+    "expertise": [
+      "PODIATRY"
+    ],
+    "quality": 4.3,
+    "beds": 0,
+    "doctors": 6
+  },
+  {
+    "name": "UNIVERSITY SETTLEMENT SOCIETY OF NEW YORK",
+    "zip": 10002,
+    "facilities": [
+      "Environmental and Poisoning Emergencies"
+    ],
+    "expertise": [
+      "CLINICAL SOCIAL WORKER",
+      "PSYCHIATRY"
+    ],
+    "quality": 4.2,
+    "beds": 0,
+    "doctors": 0
+  },
+  {
+    "name": "HENRY STREET SETTLEMENT",
+    "zip": 10002,
+    "facilities": [
+      "Environmental and Poisoning Emergencies"
+    ],
+    "expertise": [
+      "CLINICAL SOCIAL WORKER",
+      "NURSE PRACTITIONER"
+    ],
+    "quality": 2.3,
+    "beds": 0,
+    "doctors": 0
+  },
+  {
+    "name": "SPEAR PHYSICAL AND OCCUPATIONAL THERAPY, LLC",
+    "zip": 10002,
+    "facilities": [
+      "Environmental and Poisoning Emergencies"
+    ],
+    "expertise": [
+      "PHYSICAL THERAPIST IN PRIVATE PRACTICE",
+      "OCCUPATIONAL THERAPIST IN PRIVATE PRACTICE"
+    ],
+    "quality": 4.9,
+    "beds": 0,
+    "doctors": 10
+  },
+  {
+    "name": "ADVANCED GASTROENTEROLOGY PRACTICE PLLC",
+    "zip": 10002,
+    "facilities": [
+      "Environmental and Poisoning Emergencies"
+    ],
+    "expertise": [
+      "GASTROENTEROLOGY",
+      "PATHOLOGY"
+    ],
+    "quality": 2.3,
+    "beds": 0,
+    "doctors": 1
+  },
+  {
+    "name": "CHINATOWN TRUE CARE MEDICAL PLLC",
+    "zip": 10002,
+    "facilities": [
+      "Medical Emergencies"
+    ],
+    "expertise": [
+      "INTERNAL MEDICINE",
+      "NURSE PRACTITIONER"
+    ],
+    "quality": 5,
+    "beds": 375,
+    "doctors": 700
+  },
+  {
+    "name": "FOUR SEASON MEDICAL PLLC",
+    "zip": 10002,
+    "facilities": [
+      "Environmental and Poisoning Emergencies"
+    ],
+    "expertise": [
+      "PHYSICAL THERAPIST IN PRIVATE PRACTICE"
+    ],
+    "quality": 4,
+    "beds": 0,
+    "doctors": 4
+  },
+  {
+    "name": "CHINATOWN GASTROENTEROLOGY, P.C.",
+    "zip": 10002,
+    "facilities": [
+      "Medical Emergencies"
+    ],
+    "expertise": [
+      "GASTROENTEROLOGY",
+      "PATHOLOGY"
+    ],
+    "quality": 3,
+    "beds": 0,
+    "doctors": 8
+  },
+  {
+    "name": "MANHATTAN RADIATION ONCOLOGY PLLC",
+    "zip": 10002,
+    "facilities": [
+      "Medical Emergencies"
+    ],
+    "expertise": [
+      "RADIATION ONCOLOGY"
+    ],
+    "quality": 3.5,
+    "beds": 0,
+    "doctors": 5
+  },
+  {
+    "name": "SANDG MEDICAL OFFICE, PC",
+    "zip": 10002,
+    "facilities": [
+      "Medical Emergencies"
+    ],
+    "expertise": [
+      "INTERNAL MEDICINE",
+      "FAMILY PRACTICE"
+    ],
+    "quality": 5,
+    "beds": 0,
+    "doctors": 1
+  },
+  {
+    "name": "SERVICE PROGRAM FOR OLDER PEOPLE INC",
+    "zip": 10002,
+    "facilities": [
+      "Environmental and Poisoning Emergencies"
+    ],
+    "expertise": [
+      "PSYCHIATRY"
+    ],
+    "quality": 5,
+    "beds": 0,
+    "doctors": 5
+  }
+]
