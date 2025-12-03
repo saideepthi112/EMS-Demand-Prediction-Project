@@ -38,7 +38,7 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # ------------------------
 # HYPERPARAMETERS
 # ------------------------
-CSV_PATH = "ems_data_fixed.csv"    # <- set path to your CSV
+CSV_PATH = "preprocessed data sample.csv"    # <- set path to your CSV
 SEQ_LEN = 24
 BATCH_SIZE = 64
 LR = 1e-3
